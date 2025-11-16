@@ -1,0 +1,25 @@
+{
+	"folders": [
+		{
+			"path": "../../../../../F8-shop"
+		},
+		{
+			"path": "../../../../../workspace/html/f8_blog"
+		},
+		{
+			"path": "../../../../../workspace/html/f8_learn"
+		},
+		{
+			"path": "../../../../../tester/w3_band"
+		},
+		{
+			"path": "../../../../../workspace/html/shopee"
+		},
+		{
+			"path": "../../../../../workspace/html/project"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "project"
+	}
+}
