@@ -1,0 +1,19 @@
+CSS UNITS
+1. Absolute UNITS
+px
+pt
+cm
+mm
+inch
+pc
+
+2. Relative UNITS
+%
+rem - được xác định qua html{font-size}, 1 rem = font-size
+em - được xác định qua font-size định nghĩa trong thẻ gần nhất chứa nó
+vw - viewport width - kích thước bề rộng trình duyệt
+vh - viewport height - kích thước chiều dọc trình duyệt
+vmin
+vmax
+ex
+ch

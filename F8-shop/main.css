@@ -1,0 +1,48 @@
+#first-heading {
+                color: red;
+                font-size: 30px;
+            }
+.second-heading {
+    color: green;
+    font-size: 20px;
+}
+
+/* có đồng thời 2 class */
+.title.heading {
+                color: red;
+                font-size: 30px;
+            }
+
+/* title thẻ con của box */
+.box .title {
+                color: red;
+                font-size: 30px;
+            }
+
+/* tất cả thẻ được chọn */
+*. {
+                color: red;
+                font-size: 30px;
+            }
+
+/* element.class - div.box - chọn tất cả thẻ div có class="box */
+/* element, element - div, h2 - chọn tất cả thẻ div và h2 */
+.title1, .title2, .title3 {
+                color: red;
+                font-size: 30px;
+            }
+/* element element - div p - chọn tất cả thẻ p trong thẻ div */
+/* element > element - div > p - chọn tất cả thẻ p là con trực tiếp của thẻ div */
+.box> .title {
+                color: red;
+                font-size: 30px;
+            }
+/* element + element - div + p - chọn tất cả thẻ p đứng liền kề sau thẻ div */
+/* element ~ element - div ~ p - chọn tất cả thẻ p đứng sau thẻ div */
+
+.box1 .title {color: red;}
+
+.box1 .title {color: green;}
+
+/* priority: [cộng điểm] -> inline 1000 -> #id 100 -> .class 10 -> tag 1 -> internal,external ưu tiên cái mới tạo */
+/* !important sẽ ưu tiên đầu tiên */

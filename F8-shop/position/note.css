@@ -1,0 +1,5 @@
+/* position
+- relative - chỉnh vị trí
+- absolute - chỉnh vị trí phụ thuộc thẻ có position gần nhất, nếu ko thì phụ thuộc vào thẻ cha
+- fixed - vị trí ko thay đổi khi kéo thanh trực, phụ thuộc vào trình duyệt
+- sticky - tuong tu fixed nhưng top =0*/

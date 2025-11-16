@@ -1,0 +1,9 @@
+var()
+linear-gradient()
+rgba()
+rgb() - chứa 3 giá trị mã màu
+calc() - tính toán units
+attr() - lớp giả
+
+a::after{ content: " (" attr(href) ")";} add đường link cập nhật tại thẻ a
+.box::after { content: attr (data-title);}

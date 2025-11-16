@@ -1,0 +1,47 @@
+<h1>Ví dụ 1: Lựa chọn qua 1 class</h1>
+<p class="paragraph">Đoạn văn 1</p>
+<p class="paragraph">Đoạn văn 2</p>
+<p class="other-paragraph">Đoạn văn 3</p>
+<style>
+    .paragraph {
+        color: green;
+    }
+</style>
+
+<h1>Ví dụ 2: Lựa chọn qua nhiều class</h1>
+<p class="p1-normal">Đoạn văn 1</p>
+<p class="p1-normal">Đoạn văn 2</p>
+<p class="p1-normal p2-red">Đoạn văn 3</p>
+<p class="p1-normal p2-red">Đoạn văn 4</p>
+<style>
+    .p1-normal {
+        color: green;
+    }
+
+    /* Lưu ý, các tên class viết liền nhau, không có khoảng trắng */
+    .p1-normal.p2-red {
+        color: red;
+    }
+</style>
+
+<h1>Ví dụ 3: CSS cho các thẻ con</h1>
+<p class="children-1">Đoạn văn 1 (không parent)</p>
+<p class="children-2">Đoạn văn 2 (không parent)</p>
+
+<div class="parent">
+    <p>Đoạn văn 1 (parent 1)</p>
+    <p class="children-1">Đoạn văn 1 (con của .parent)</p>
+    <p class="children-2">Đoạn văn 2 (con của .parent)</p>
+</div>
+
+<style>
+    /* Chọn tất cả thẻ "p" là con của thẻ có class "parent" */
+    .parent p {
+        color: green;
+    }
+
+    /* Chọn tất cả thẻ có class "children-1" là con của thẻ có class "parent" */
+    .parent .children-1 {
+        color: red;
+    }
+</style>

@@ -1,0 +1,12 @@
+/* ::before
+::after
+::first-letter
+::first-line
+::selection - sự lựa chọn đổi màu (add đổi màu)
+
+{content: "";
+color: #fff;
+display: block;
+width: 50px;
+height: 50px;
+background-color: #fff;} */
